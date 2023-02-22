@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
     private val tempCoinList = arrayListOf<Coin>()
     private var page = 1
     private val coinListViewModel : CoinListViewModel by viewModels()
+
     @SuppressLint("NotifyDataSetChanged")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
